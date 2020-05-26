@@ -1,0 +1,48 @@
+.services{
+    margin-top: 110px;
+    
+}
+
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    
+}
+
+.services-item{
+    display: flex;
+    width: 382px;
+    margin: 65px 0 55px 0;
+
+    
+}
+
+.services-item-icon{
+    
+    display: inline-block;
+    
+}
+
+.services-item-wrapper{
+    margin-left: 25px;
+    width: 286px;
+}
+
+.services-item-icon svg  {
+  fill: #95e1d3;
+}
+
+.services-item-title{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.services-item-descr{
+    color: #9f9f9f;
+    font-size: 15px;
+    line-height: 1.5;
+}

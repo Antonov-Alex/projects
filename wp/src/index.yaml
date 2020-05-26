@@ -1,0 +1,8 @@
+ProjectTitle: start
+
+PageList:
+- file: page.html
+  ready: 50
+
+- file: main.html
+  ready: 100

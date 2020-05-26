@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="242" viewBox="0 0 345 242">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#304247" d="M0 0H375V242H0z" transform="translate(-15)"/>
+        <text fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing=".1" transform="translate(-15)">
+            <tspan x="124" y="80">Electroni</tspan> <tspan x="124" y="110">c Health </tspan> <tspan x="124" y="140">Record </tspan> <tspan x="124" y="170">Systems</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,133 @@
+.about{
+    margin-top: 100px;
+}
+
+.about-descr, .descr{
+    font-size: 24px;
+    font-family: 'Kaushan Script';
+    text-align: center;
+    
+}
+
+.about-title, .title{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title{
+  &::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 4px;
+    background-color: #f38181;
+    margin-top: 40px;
+}
+}
+
+.about-text, .title-text{
+    width: 957px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    margin-top: 47px;
+}
+/*-----------about gallery-------------*/
+
+.about-gallery{
+    margin-top: 100px;
+
+}
+
+.gallery-list{
+   display: flex;
+   justify-content: space-between;
+}
+.gallery-item{
+    position: relative;
+    width: 380px;
+    height: 250px;
+
+}
+
+
+
+.gallery-item-mask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient( #d18182 , #e9d88d);
+    opacity: 0;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 #95e1d3;
+    transform: translate(-10px, -10px);
+    transition: all  0.7s ease-in;
+}
+
+.gallery-mask-text{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.gallery-item:hover .gallery-item-mask{
+   opacity: 0.95;
+}
+
+/*----------------------about counter------------------------------------------*/
+
+.about-counter{
+    background-color: #95e1d3;
+    margin-top: 110px;
+}
+
+.counter-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter-list-item{
+   display: flex;
+   height: 270px;
+   width: 239px;
+   align-items: center;
+   justify-content: center;
+   border-right: 1px solid #fff;
+}
+
+.counter-list-item:last-child{
+    border-right: none;
+}
+
+.counter-list-item span{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.counter-item-num{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 72px;
+    color: #fff;
+    opacity: 0;
+}
+
+.vis{
+    opacity: 1;
+    transition: 1s;
+}

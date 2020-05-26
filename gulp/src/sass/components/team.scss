@@ -1,0 +1,92 @@
+.team .wrapper{
+    margin-top: 88px;
+    padding-bottom: 112px;
+}
+
+
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+
+.team-item{
+    position: relative;
+}
+.team-item img{
+    width: 380px;
+    height: 470px;
+    
+}
+
+.team-item-mask{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient( #d18182 , #e9d88d);
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.6s ease;
+}
+
+.team-item-mask:hover{
+   opacity: 0.95;
+   box-shadow: 10px 10px 0 0 #95e1d3;
+   transform: translate(-10px, -10px);
+}
+
+.item-mask-list{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-mask-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 57px;
+    height: 57px;
+    border-right: 1px solid #f38181;
+    background-color: #fce38a;
+    transition: background-color 0.4s ease-in;
+}
+
+.item-mask-icon:last-child{
+    border-right: none;
+}
+
+.item-mask-icon svg {
+    
+    fill: #f38181;
+    transition: fill 0.6s ease-out;
+}
+
+.item-mask-icon:hover{
+    background-color: #f38181;
+}
+
+.item-mask-icon:hover.item-mask-icon svg{
+    fill: white
+}
+.team-item-name{
+    width: 380px;
+    text-align: center;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #333;
+    margin-top: 30px;
+}
+
+.team-item-position{
+    width: 380px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: italic;
+    color: #999;
+    margin-top: 16px;
+}

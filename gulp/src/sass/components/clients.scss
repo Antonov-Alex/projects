@@ -1,0 +1,77 @@
+.clients{
+    background-image: url(/img/wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.clients-mask{
+    
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.clients .wrapper{
+    padding-top: 100px;
+}
+
+.clients-list{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 87px;
+    padding-bottom: 60px;
+}
+.clients-item{
+    display: flex;
+    padding-bottom: 63px;
+    
+}
+
+.clients-item-wrapp{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.clients-item img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 42px;
+    
+}
+
+.clintets-item-name{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #333;
+}
+
+.clients-item-position{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.clients-item-position::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 17px;
+}
+
+.clients-item-coment{
+    font-family: 'Roboto';
+    width: 385px;
+    font-size: 15px;
+    color: #999;
+    margin-top: 18px;
+    line-height: 1.5;
+}

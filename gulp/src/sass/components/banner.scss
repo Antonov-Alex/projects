@@ -1,0 +1,63 @@
+.banner{
+    background-color: #f8f8f8;
+    
+}
+
+.banner .wrapper{
+    height: 250px;
+}
+
+.banner-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px 0 10px;
+}
+.banner-list-item{
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    
+}
+.banner-list-item:first-child{
+   
+    background-image: url('/images/hips.png');
+    background-position: 50% 0%;;
+    background-size: 204%;
+    
+    
+    
+}
+
+.banner-list-item:nth-child(2){
+    
+    background-image: url('/images/hips2.png');
+    background-position: 46% 40%;;
+    background-size: 100%;
+    
+}
+
+.banner-list-item:nth-child(3){
+    background-image: url('/images/hips3.png');
+    background-position: 0% 45%;;
+    background-size: 129%;
+}
+
+.banner-list-item:nth-child(4){
+    background-image: url('/images/hips4.png');
+    background-position: 54% 59%;;
+    background-size: 136%;
+}
+
+.banner-list-item:nth-child(5){
+    background-image: url('/images/hips5.png');
+    background-position: 51% 47%;;
+    background-size: 146%;
+}
+
+.banner-list-item:nth-child(6){
+    background-image: url('/images/hips6.png');
+    background-position: 51% 58%;;
+    background-size: 102%;
+}

@@ -1,0 +1,54 @@
+.design{
+    background-image: url("/images/wood.jpg");
+    background-size: cover;
+    height: 850px;
+}
+
+.design-mask{
+    width: inherit;
+    min-height: inherit;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.design .wrapper{
+    position: relative;
+    width: inherit;
+    height: 850px;
+    
+    
+}
+.design-text{
+    padding-top: 94px;
+}
+
+
+.design-ipad{
+    
+    width: 475px;
+    height: 583px;
+    
+    
+    background-image: url("/images/iPad.jpg");
+    background-position: 50% 38%;
+    background-size: 215%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 340px;
+    margin-top: 48px;
+    
+    
+}
+
+.desighn-iphone{
+    width: 203px;
+    height: 437px;
+    
+    position: absolute;
+    right: 269px;
+    bottom: -54px;
+    background-image: url('/images/iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: 217% 107%;
+    background-position: center;
+    border-radius: 32px;
+}

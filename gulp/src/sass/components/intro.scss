@@ -1,0 +1,95 @@
+.intro{
+    background-image: url("/images/intro.jpeg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    
+    margin: 0 auto;
+    
+}
+
+.intro-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-----intro--------*/
+
+.intro-descr{
+    font-family: 'Kaushan Script';
+    font-size: 72px;
+    color: rgb(45, 42, 94);
+    text-align: center;
+    line-height: 1;
+    margin-top: 175px;
+}
+
+.intro-title{
+    font-weight: bold;
+    font-size: 70px;
+    width: 843px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+    margin-top: 85px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.intro-title::after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.intro-btn{
+    display: block;
+    border: 3px solid #fff;
+    width: 160px;
+    min-height: 40px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    
+    line-height: 3;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+/*------intro-slider-----*/
+
+.intro-slider-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 157px;
+}
+.intro-slider-item{
+    display: flex;
+    align-items: flex-end;
+    width: 280px;
+    height: 47px;
+    border-top: 2px solid rgba(255, 255, 255, 0.7);
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.intro-slider-item:first-child{
+    border-top: 2px solid rgba(255, 255, 255, 1);
+}
+
+.intro-slider-item span{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
