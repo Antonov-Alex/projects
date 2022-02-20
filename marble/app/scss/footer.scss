@@ -1,0 +1,60 @@
+
+.footer{
+    background: $accentColor;
+    padding: 100px 0;
+    
+    &__body{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        display: flex;
+        z-index: 7;
+        font-size: 50px;
+        border: 2px solid #fff;
+        width: 65px;
+        height: 65px;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    &__list-link{
+        display: flex;
+        color: #fff;
+        font-size: 18px;
+        align-items: center;
+        margin-bottom: 20px;
+        &:before{
+            content: '';
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            background-size: contain;
+            
+        }
+    }
+
+    .viber-link{
+        &::before{
+            
+            background-image: url(../images/viber_logo_icon.svg);
+            margin-right: 10px;
+        }
+    }
+    .phone-link{
+        &::before{
+            background-image: url(../images/phone_icon.svg);
+            
+        }
+    }
+    .email-link{
+        &::before{
+            background-image: url(../images/mail-icon.svg);
+            margin-right: 10px;
+        }
+    }
+
+}

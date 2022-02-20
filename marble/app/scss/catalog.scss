@@ -1,0 +1,30 @@
+
+.catalog{
+    //padding: 100px 0;
+    background-color: $accentColor;
+    color: #fff;
+    
+    &__title{
+        color: #fff;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 250px;
+        height: 350px;
+        
+        img{
+            width: 250px;
+            height: 250px;
+            padding-bottom: 15px;
+        }
+    }
+    &__item-title{
+        color: #fff;
+        font-size: 16px;
+        
+    }
+
+}

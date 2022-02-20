@@ -1,0 +1,35 @@
+
+.hero{
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &__body{
+        
+    }
+    &__title{
+        padding-top: 100px;
+        max-width: 700px;
+        
+        font-size: 65px;
+        text-align: center;
+        color: $textColor;
+        text-transform: uppercase;
+        margin: 0 auto;
+        margin-bottom: 80px;
+     
+        
+
+    }
+    &__list{
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    &__list-text{
+        font-size: 25px;
+        line-height: 35px;
+        color: $textColor;
+        
+    }
+}
